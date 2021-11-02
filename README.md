@@ -87,7 +87,10 @@ a {
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
     <button type="submit" class="registerbtn">Register</button>
-    <su_button url="#" onclick="alert('Thank you for downloading!');">Button text</su_button>
+   <div id="thank_you" style="display: none;">
+  <p>Thanks for filling up the form!</p>
+  <button type="submit">Close</button>
+</div>
   </div>
   
   <div class="container signin">
