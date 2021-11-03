@@ -67,9 +67,8 @@ a {
 }
 </style>
 </head>
-<body>
 
-<form>
+<form method="POST" action="action_page.html">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account and stand a chance to win.</p>
@@ -81,29 +80,17 @@ a {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
-<!--     <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required> -->
     <hr>
-    <!-- <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p> -->
-
-    <button type="submit" onclick="myFunction()" class="registerbtn">Register </button>
-
-    <!-- <button onclick="myFunction()">Click me</button> -->
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Thank you for registering. We will reach out if you've won.";
-}
-</script>
-    
+    <button class="registerbtn">Register 
+      <a href="action_page.html">
+        
+       </a>
+    </button>
+ 
+ 
   </div>
-  
-  <!-- <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div> -->
-</form>
+
+</form> 
 
 </body>
 </html>
